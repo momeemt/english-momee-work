@@ -6,7 +6,7 @@ tags:
 ---
 # I have created my blog!
 Hi. I am Momiyama(@momeemt).  
-I decide on I write articles by English, because I want to talk English with flequency but I can't write in it well.  
+I decided to write articles in English, because I want to talk English with flequency but I can't write in it well.  
 My hobby is programming, so I will post about information technology.  
 
 ## About Tree Structure
@@ -36,3 +36,11 @@ I am not good at English, but I want to do my best posting article everyday.
 | distinguished | 区別された |
 | Worthy of a special mention | 特筆すべきなのは |
 | impression | 感想 |
+
+## Fix
+### 2020-06-21 12:12
+thanks to [@swawa_yu_1](https://twitter.com/swawa_yu_1)!
+| before | after |
+| ------ | ----- |
+| decide on I ... | decided to write ... |
+| by English | in English |
