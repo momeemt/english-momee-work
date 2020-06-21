@@ -1,35 +1,27 @@
 {
-  "name": "your-name-app",
-  "version": "0.1.0",
-  "description": "Descripton your webapp",
+  "name": "en-momee-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "node_modules/.bin/vuepress dev src",
-    "build": "node_modules/.bin/vuepress build src"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ktquez/vuepress-theme-ktquez-starter"
+    "url": "git+https://github.com/momeemt/english-momee-work.git"
   },
   "keywords": [
-    "vuepress",
-    "vuepress-theme",
-    "site",
-    "blog",
-    "theme-ktquez",
-    "markdown",
-    "static",
-    "vuejs"
+    "blog"
   ],
-  "author": "Alan Ktquez <ktquez@gmail.com> (https://ktquez.com/)",
+  "author": "momeemt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ktquez/vuepress-theme-ktquez-starter/issues"
+    "url": "https://github.com/momeemt/english-momee-work/issues"
   },
-  "homepage": "https://github.com/ktquez/vuepress-theme-ktquez#readme",
-  "devDependencies": {
-    "vuepress": "^0.14.2"
-  },
+  "homepage": "https://github.com/momeemt/english-momee-work#readme",
   "dependencies": {
-    "vuepress-theme-ktquez": "^0.2.18"
+    "vuepress": "^1.5.2",
+    "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }
