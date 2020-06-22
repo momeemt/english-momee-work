@@ -94,7 +94,7 @@ module.exports = {
             twitterCard, type, url, image, publishedAt, modifiedAt,
         } = context
 
-        add('twitter:site', 'momeemt')
+        add('twitter:site', '@momeemt')
     },
     }
   }
