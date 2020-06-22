@@ -77,12 +77,25 @@ module.exports = {
       description: $page => $page.frontmatter.description,
       author: (_, $site) => $site.themeConfig.author,
       tags: $page => $page.frontmatter.tags,
-      twitterCard: _ => 'summary_large_image',
+      twitterCard: _ => 'summary',
       type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
       url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
+      // image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
+      image: _ => 'https://pbs.twimg.com/profile_images/1127473315944132608/nRUcPCRj_400x400.jpg',
       publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
       modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+      customMeta: (add, context) => {
+        const {
+            $site, // Site configs provided by Vuepress
+            $page, // Page configs provided by Vuepress
+
+            // All the computed options from above:
+            siteTitle, title, description, author, tags,
+            twitterCard, type, url, image, publishedAt, modifiedAt,
+        } = context
+
+        add('twitter:site', 'momeemt')
+    },
     }
   }
 }
