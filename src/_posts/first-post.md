@@ -25,7 +25,7 @@ The node which does not have child-node is called 'external node' or 'leaf'.
 
 ## Impression
 Writing this article in English is very hard work, so I cannot make detailed information.  
-I am not good at English, but I want to do my best posting article everyday.
+I am not good at English, but I want to do my best posting article every day.
 
 ## New Words
 | English | Japanese |
@@ -45,3 +45,9 @@ thanks to [@swawa_yu_1](https://twitter.com/swawa_yu_1)!
 | decide on I ... | decided to write ... |
 | by English | in English |
 | named | is called |
+
+### 2020-06-22 13:47
+thanks to [@orange_aus](https://twitter.com/orange_aus)!
+| before | after |
+| ------ | ----- |
+| everyday | every day |
