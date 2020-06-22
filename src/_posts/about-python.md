@@ -41,7 +41,7 @@ I want to develop in OpenCV, so I installed it by pip.
 pip install opencv-python
 ```
 
-## summary
+## Summary
 I did environmental structure and [easy image processing](https://github.com/momeemt/OpenCV_learn/tree/tottori-opencv-tutorial/tottori-u-opencv).  
 I want to study numpy, Flask, natural language processing, of course, and image processing!  
 Studying Python is very deep inside, I want to do my best!
