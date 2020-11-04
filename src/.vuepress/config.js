@@ -68,7 +68,8 @@ module.exports = {
   },
   head: [
     ['link', { href: '/css/style.css', rel: 'stylesheet'}],
-    ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.ico' }],
+    ['script', { 'data-ad-client': 'ca-pub-2240481986622074', 'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}]
   ],
   plugins: {
     'seo': { 
